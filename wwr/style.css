@@ -1,8 +1,11 @@
+@import url("https://fonts.googleapis.com/css2?family=IBM+Plex+Mono:wght@600&family=Quicksand:wght@300&display=swap");
+
 /* id selectors */
 #content {
   max-width: 1600px;
   border: 1px solid black;
   margin: 20px;
+  font-size: 22px;
 }
 
 #background {
@@ -11,9 +14,13 @@
   background-color: #5584ac;
 }
 
+#logo_link {
+  padding-top: 30px;
+}
 /* text selectors */
 nav a {
   text-align: center;
+  padding: 30px;
 }
 #hero-msg h1,
 #hero-msg h4 {
@@ -23,9 +30,13 @@ nav a {
 main section {
   text-align: center;
 }
-
+main section img {
+  box-sizing: border-box;
+}
 body {
   background-color: #22577e;
+  margin: 0;
+  padding: 0;
 }
 header {
   background-color: #95d1cc;
@@ -46,42 +57,60 @@ footer {
   text-decoration: none;
 }
 
-footer p{
+footer p {
   font-size: 1.2em;
 }
 
 h4 {
   background-color: #95d1cc;
-  color: #faffaf;
+  color: #22577e;
 }
 
 footer a {
   color: #1e514c;
   text-decoration: none;
   text-align: center;
+  margin-top: 200px;
 }
 
-footer p a:hover{
+footer p a:hover {
   text-decoration: underline;
 }
 
 footer a:hover {
   background-color: #faffaf;
+  padding: 25px 50px;
+}
+footer .social img {
+  padding-top: 15px;
 }
 /* class selectors */
 .book,
 .join {
   text-decoration: none;
-  color: #22577e;
+  color: #dfe497;
+  font-size: 18px;
+  border-radius: 5px;
+  margin-top: 50px;
+  padding: 15px 30px;
+  background-color: #22577e;
 }
-
 
 .book:hover,
 .join:hover {
   background-color: #dfe497;
+  color: #22577e;
 }
+
+.rivers-card,
+.camping-card,
+rapids-card {
+  margin: 200px 0;
+}
+
 .msg {
-  background-color: #95d1cc ;
+  background-color: #95d1cc;
+  padding: 35px;
 }
 
 .button-box {
@@ -90,13 +119,32 @@ footer a:hover {
 
 .icon {
   width: 80px;
+  padding-top: 10px;
 }
 
 .home-title {
   background-color: #5584ac;
   color: #95d1cc;
+  font-family: Quicksand, sans-serif;
+  font-size: 2em;
+  margin-top: 10px;
 }
 
 .msg h2 {
   background-color: #22577e;
+  font-family: "Quicksand", sans-serif;
+  color: #95d1cc;
+}
+
+.msg p {
+  font-size: 0.8em;
+  padding-bottom: 15px;
+}
+
+.card-img {
+  border: solid black 10px;
+}
+
+.logo {
+  width: 100px;
 }
