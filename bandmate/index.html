@@ -10,42 +10,45 @@
   </head>
   <body>
     <header>
-      <h1>BandMate</h1>
-      <img src="images/logo2.png" alt="Logo image">
       <nav>
-        <ul>
-          <li class="active">
-            <a href="index.html">Home</a>
-          </li>
-          <li>
-            <a href="learn.html">Learn</a>
-          </li>
-          <li>
-            <a href="jam.html">Jam</a>
-          </li>
-        </ul>
+        <img class="logo" src="images/logo2.png" alt="Logo image" />
+        <h1 class="bandmate">BandMate</h1>
+        <a class="active" href="index.html">Home</a>
+        <a class="learn" href="learn.html">Learn</a>
+        <a class="jam" href="jam.html">Jam</a>
       </nav>
     </header>
     <main>
-      <section>
-        <h2>Learn an Instrument</h2>
-        <img src="images/logo.png" alt="image for homepage" />
-      </section>
-      <section>
-        <h1>Welcome to BandMate</h1>
-        <p>
-          BandMate is where you will find all the musical help you need, We have
-          different ways you can learn music through lessons with teachers,
-          online and personal practice. We also have ways for you to connect
-          with other musicians so you can find your musical journey. We hope to
-          work with you and let us know we can do to improve your stay! Rock On!
-        </p>
-      </section>
-      <section>
-        <h2>Jam with Others</h2>
-        <img src="images/drums.png" alt="image for homepage" />
-      </section>
-      
+      <div  class="grid">
+        <section class="welcome-card">
+          <h2>Welcome to BandMate</h2>
+          <p class="welcome">
+            BandMate is where you will find all the musical help you need, We
+            have different ways you can learn music through lessons with
+            teachers, online and personal practice. We also have ways for you to
+            connect with other musicians so you can find your musical journey.
+            We hope to work with you and let us know we can do to improve your
+            stay! <br>
+            Rock On!
+          </p>
+        </section>
+        <section class="learn-card">
+          <h2>Learn an Instrument</h2>
+          <img
+            class="card-img"
+            src="images/logo.png"
+            alt="image for homepage"
+          />
+        </section>
+        <section class="jam-card">
+          <h2>Jam with Others</h2>
+          <img
+            class="card-img"
+            src="images/drums.png"
+            alt="image for homepage"
+          />
+        </section>
+      </div>
     </main>
     <footer>
       <ul>
