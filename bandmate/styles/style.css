@@ -5,6 +5,10 @@ main {
   margin: auto;
 }
 
+html {
+  width: auto;
+}
+
 body {
   background: #faeee7;
   margin: auto;
@@ -51,7 +55,7 @@ nav {
   align-items: center;
   align-content: center;
   justify-items: center;
-  max-width: 1600px;
+  max-width: auto;
 }
 
 h1.bandmate .logo {
