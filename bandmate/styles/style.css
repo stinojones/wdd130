@@ -38,7 +38,7 @@ footer li {
 footer {
   background-color: #24a19c;
   border: 2px solid black;
-  height: 200px;
+  height: 160px;
   margin: auto;
   margin-top: 5px;
 }
@@ -104,6 +104,14 @@ h1.bandmate {
   justify-items: center;
 }
 
+.grid3 {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr ;
+  text-align: center;
+  width: auto;
+  justify-items: center;
+}
+
 .welcome-card {
   grid-column: 1/3;
 }
@@ -131,6 +139,8 @@ h2 {
   padding: 20px;
   background-color: #325288;
   color: #faeee7;
+  height: 25px;
+  width: auto;
 }
 
 h1 {
@@ -184,3 +194,21 @@ img.learn-img {
   border: 2px solid black;
   padding: 25px;
 }
+
+
+fun-card {
+grid-column: 2/3;
+
+}
+
+improve-card {
+grid-column: 1/2;
+}
+
+img.improve-img , .band-img , .fun-img {
+  width: 300px;
+  border: 2px solid black;
+  padding: 30px;
+}
+
+
